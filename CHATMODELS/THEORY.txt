@@ -1,3 +1,12 @@
 ALL LLMS INHERIT FROM BASE LLM CLASS  
 
 WHERE AS ALL THE CHAT MODELS INHERIT FROM BASE CHAT MODEL CLASS
+
+Temperature in models  = it is a parameter that controls the randomness of language models
+
+
+if temperature is 0 the model output for the same prompt will always be the same 
+
+(0<= temperature <=2)
+
+high temperature value gives different response with same prompt every time
